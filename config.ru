@@ -19,3 +19,5 @@ use CustomerController
 use TicketController 
 
 use ItemController
+
+use TicketItemController

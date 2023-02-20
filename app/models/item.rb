@@ -1,3 +1,4 @@
 class Item < ActiveRecord::Base
-    belongs_to :tickets
+    has_many :ticket_items
+    has_many :tickets, through: :ticket_items
 end
